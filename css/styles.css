@@ -1,0 +1,86 @@
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+body {
+  background: hsl(164, 100%, 52%);
+}
+.title {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(58, 11, 244);
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(165, 255, 10, 0.2);
+  border: 2px solid rgba(7, 191, 243, 0.8);
+}
+
+.slider-img {
+  gap: 25px;
+  padding: 30px 20px 20px 20px;
+ 
+}
+.slider-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: rgb(6, 14, 247);
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 50px;
+  color: rgb(101 9 186 / 50%);
+   }
+
+.slick-prev {
+    left: -75px;
+}
+.slick-next {
+    right: -75px;
+}
+
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(6, 14, 247);
+     
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg');
+    text-align: center;
+    opacity: .25;
+      -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   color: rgb(6, 14, 247);
+}
+
+
+
+
+
+
+
+
